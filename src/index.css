@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.landingpage {
+  background: url('./assets/herobg.png') center center/cover;
+}

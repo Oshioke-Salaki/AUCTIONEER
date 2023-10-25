@@ -16,6 +16,7 @@ import new2 from '../assets/new2.png';
 import new3 from '../assets/new3.png';
 import new4 from '../assets/new4.png';
 import TopAuctions from '../ui/TopAuctions';
+import { NavLink } from 'react-router-dom';
 
 function Home() {
   return (
@@ -37,7 +38,9 @@ function Home() {
             <h1 className="text-red100 text-[30px] font-extrabold">
               Live Auctions
             </h1>
-            <h1 className="text-xl font-extrabold text-[#BCB9B9]">See All</h1>
+            <NavLink to="/nft/12">
+              <h1 className="text-xl font-extrabold text-[#BCB9B9]">See All</h1>
+            </NavLink>
           </header>
           <div className="grid grid-cols-[1fr_1fr_1fr_1fr] gap-x-5">
             <img src={live1} alt="" />
